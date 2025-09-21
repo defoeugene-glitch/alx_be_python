@@ -4,5 +4,5 @@ i = 0
 while i < pattern_size:
     i += 1
     for num in range(pattern_size):
-        print(f"*" * pattern_size)
-    break
+        print("*", end="")
+    print()
